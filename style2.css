@@ -1,0 +1,97 @@
+body{
+    max-width:100%;
+}
+  
+  #container{
+    display:block;
+    background-color:rgba(255, 99, 71,0.5);
+    padding:15px;
+    
+  }
+  
+
+  #title{
+    text-align:center;
+  }
+  
+  #description{
+    text-align:center;
+  }
+
+  form{
+
+      display:flex;
+      margin-left:23em;
+      flex-direction:column;
+     width:40%;
+  }
+
+  .inside-form{
+    background-color:rgba(255, 99, 71, 0.5);
+    margin-bottom:1em;
+    padding:10px;
+    border:1px solid black;
+    border-radius:0.5em;
+    
+  }
+  
+  .inside-form p{
+    margin-left:1em;
+  }
+  #name{
+    width:25em;
+    height:2em;
+    margin:1em;
+  }
+  #name-label{
+    margin-left:1em;
+  }
+  
+  #email{
+    width:25em;
+    height:2em;
+    margin:1em;
+  }
+  #email-label{
+    margin-left:1em;
+  }
+  
+  #number{
+    width:25em;
+    height:2em;
+    margin:1em;
+  }
+  #number-label{
+    margin-left:1em;
+  }
+  
+  #sub{
+    margin-left:1em;
+  }
+  
+  #dropdown{
+    width:25em;
+    height:2em;
+    margin:1em;
+  }
+  
+  
+  
+  .left{
+    margin:1em;
+  }
+
+  
+  @media (max-width:1120px){
+    form{
+        margin-left:1.5em;
+        width:95%;
+    }
+}
+
+  @media (max-width:900px){
+      form{
+          margin-left:1.5em;
+          width:90%;
+      }
+  }
